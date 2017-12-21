@@ -1,0 +1,88 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #e2e2e2;
+}
+
+.marg {
+    padding-top: 50px;
+}
+
+.firstRow {
+    font-size: 0;
+    max-width: 70%;
+    margin: auto;
+}
+
+.firstRow div {
+    font-size: 1rem;
+    display: inline-block;
+    width: 25%;
+    font-family: cambria;
+    padding: 10px;
+}
+
+.firstRow div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.firstRow_London {
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+.firstRow_London:hover {
+    background-color: #8899aa;
+}
+
+.firstRow_Leeds {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.firstRow_Leeds:hover {
+    background-color: #6FaEA5;
+}
+
+.firstRow_Liverpool {
+    background-color: burlywood;
+    text-align: center;
+}
+
+.firstRow_Liverpool:hover {
+    background-color: #EFC998;
+}
+
+.firstRow_Glasgow {
+    background-color: tomato;
+    text-align: center;
+}
+
+.firstRow_Glasgow:hover {
+    background-color: #FF5335;
+}
+
+@media screen and (max-width: 1000px) {
+    .firstRow div a {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .firstRow div {
+        display: block;
+        width: 100%;
+    }
+}
+
+hr {
+    max-width: 70%;
+    margin: 0 auto;
+}
