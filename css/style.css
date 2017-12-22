@@ -4,85 +4,78 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    background-color: #e2e2e2;
-}
-
-.marg {
-    padding-top: 50px;
-}
-
-.firstRow {
+.box {
     font-size: 0;
     max-width: 70%;
-    margin: auto;
+    margin: 40px auto;
 }
 
-.firstRow div {
-    font-size: 1rem;
+.firstRow,
+.secondRow,
+.thirdRow {
     display: inline-block;
+    font-size: 1rem;
+    padding: 50px 0;
     width: 25%;
-    font-family: cambria;
-    padding: 10px;
+    overflow: hidden
 }
 
-.firstRow div a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
+.secondRow {
+    width: 33.33%;
 }
 
-.firstRow_London {
-    background-color: lightslategrey;
+.box div {
     text-align: center;
+    text-transform: uppercase;
 }
 
-.firstRow_London:hover {
-    background-color: #8899aa;
+.box div:hover {
+    position: relative;
+    left: -5px;
+    top: -5px;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
 }
 
-.firstRow_Leeds {
-    background-color: cadetblue;
-    text-align: center;
-}
-
-.firstRow_Leeds:hover {
-    background-color: #6FaEA5;
-}
-
-.firstRow_Liverpool {
-    background-color: burlywood;
-    text-align: center;
-}
-
-.firstRow_Liverpool:hover {
-    background-color: #EFC998;
-}
-
-.firstRow_Glasgow {
+.tomato {
     background-color: tomato;
-    text-align: center;
 }
 
-.firstRow_Glasgow:hover {
-    background-color: #FF5335;
+.blue {
+    background-color: blue;
 }
 
-@media screen and (max-width: 1000px) {
-    .firstRow div a {
-        font-size: 90%;
-    }
+.green {
+    background-color: green;
 }
 
-@media screen and (max-width: 400px) {
-    .firstRow div {
-        display: block;
-        width: 100%;
-    }
+.yellow {
+    background-color: yellow;
 }
 
-hr {
-    max-width: 70%;
-    margin: 0 auto;
+.darkseagreen {
+    background-color: darkseagreen;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+}
+
+.blueviolet {
+    background-color: blueviolet;
+}
+
+.salmon {
+    background-color: salmon;
+}
+
+.darkyan {
+    background-color: darkcyan;
+}
+
+.firebrick {
+    background-color: firebrick;
+}
+
+.teal {
+    background-color: teal;
 }
